@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pixelPerfectCamera: {fileID: 675533038}
-  pixelPerfectFitType: 0
+  fitType: 1
   parallaxLayer: 0
   pixelScale: 4
   runContinously: 1
@@ -372,12 +372,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fitType: 0
-  targetPixelHeight: 1080
+  targetPixelHeight: 443
   parallaxLayerCount: 10
   cameraZoom: 1
   pixelatedPostProcessing: 0
-  heightError: 480
+  heightError: 0
   showGizmos: 1
+  subpixelOffset: {x: 0, y: 0}
   pixelZoomMode: 0
 --- !u!124 &675533040
 Behaviour:
@@ -414,9 +415,9 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 1000
-  field of view: 86.3047791
+  field of view: 69.3809967
   orthographic: 1
-  orthographic size: 9.375
+  orthographic size: 6.921875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
